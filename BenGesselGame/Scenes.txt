@@ -1,0 +1,12 @@
+100
+Flavor text.
+option [a] or option [b]|
+a|200|b|300
+200
+Flavor text1.
+option [a] or option [b]|
+a|300|b|0
+300
+Flavor text2.
+option [a]|
+a|0
