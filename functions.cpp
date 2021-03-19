@@ -51,7 +51,7 @@ void getScenes(string fileName, unordered_map<unsigned int, Scene>& scenes)
 			else
 				end = line.find("|", begin);
 
-			unsigned int value = static_cast<unsigned int>(stoul(line.substr(begin, end - begin)));
+			unsigned int value = stoul(line.substr(begin, end - begin));
 
 			choices.insert(make_pair(option, value));
 

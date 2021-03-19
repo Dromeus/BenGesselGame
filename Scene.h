@@ -1,10 +1,9 @@
 #ifndef H_scene
 #define H_scene
 
+#include <iostream>
 #include <string>
 #include <unordered_map>
-
-#include "ArrayList.h"
 
 using namespace std;
 
